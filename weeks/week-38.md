@@ -15,11 +15,11 @@
 Run the experiment you designed; collect results.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Re-check your Week 37 design against the NeurIPS checklist as pre-registration
+- **Tue** (2h): Implement the RoPE-vs-learned-positional variant to compare against your existing model
+- **Wed** (2h): Project build — run the experiment at your primary context length
+- **Thu** (2h): Re-run at 2-3 context lengths to check if the effect is length-dependent; collect all results
+- **Fri** (1.5h + 0.5h): Consolidate raw results -> video: running the experiment I designed last week
 
 ## Checklist
 - [ ] Core reading/lecture done

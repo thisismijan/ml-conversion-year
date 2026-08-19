@@ -15,11 +15,11 @@
 Milestone: mini-post-training-lab — compare base vs SFT vs DPO on an eval set.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Re-read the DPO paper's loss derivation alongside TRL's DPOTrainer implementation
+- **Tue** (2h): Validate your Week 31 DPO loss implementation against TRL's as a known-correct reference
+- **Wed** (2h): Project build — run DPO training on your SFT model using your Week 33 preference data
+- **Thu** (2h): Set up an eval comparing base vs SFT vs DPO (use your GPT as an LLM-judge for win-rate)
+- **Fri** (1.5h + 0.5h): Finalize the mini-post-training-lab comparison + win-rate results -> video: base vs SFT vs DPO
 
 ## Checklist
 - [ ] Core reading/lecture done

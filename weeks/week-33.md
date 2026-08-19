@@ -14,11 +14,11 @@
 Create a small preference dataset (can be synthetic/self-generated).
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Study Anthropic hh-rlhf's chosen/rejected jsonl schema
+- **Tue** (2h): TRL DPOTrainer data format docs — confirm exact field names needed
+- **Wed** (2h): Project build — generate response pairs from your SFT model at two sampling temperatures
+- **Thu** (2h): Rank pairs yourself (or with a simple heuristic/LLM judge) into chosen/rejected; format as jsonl
+- **Fri** (1.5h + 0.5h): Validate the dataset loads correctly against TRL's expected schema -> video: where preference data actually comes from
 
 ## Checklist
 - [ ] Core reading/lecture done

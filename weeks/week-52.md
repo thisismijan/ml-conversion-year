@@ -15,11 +15,11 @@
 Milestone: published research writeup + complete portfolio of 5 repos + 1 research project.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Read 'Notes On Writing Effective Empirical Software Engineering Papers'
+- **Tue** (2h): Study vLLM's blog performance posts as a structural model; outline your writeup (claims -> evidence -> limitations)
+- **Wed** (2h): Project build (no video) — draft the technical writeup/blog post
+- **Thu** (2h): Final polish pass on all 6 portfolio items (READMEs, code cleanup, links between repos)
+- **Fri** (1.5h + 0.5h): Publish the writeup; cross-post its abstract as the closing summary -> video: 52 weeks — what I built and what's next
 
 ## Checklist
 - [ ] Core reading/lecture done

@@ -14,11 +14,11 @@
 Train an image classifier; log train/val curves.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): PyTorch Datasets & DataLoaders docs
+- **Tue** (2h): PyTorch CIFAR-10 tutorial — read through, understand each cell before running it
+- **Wed** (2h): Project build — set up the CIFAR-10 dataset/dataloader/model per the tutorial
+- **Thu** (2h): Train the classifier with checkpointing and a train/val split; log curves
+- **Fri** (1.5h + 0.5h): Evaluate on the val set, note over/underfitting -> video: batching, epochs and checkpoints, explained via this run
 
 ## Checklist
 - [ ] Core reading/lecture done

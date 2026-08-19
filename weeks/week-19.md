@@ -15,11 +15,11 @@
 Implement a BPE tokenizer yourself.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Karpathy's Let's build the GPT Tokenizer video, part 1
+- **Tue** (2h): Continue the tokenizer video; read minbpe's exercise.md for the 4-step progression
+- **Wed** (2h): Project build — implement BPE training (merge counting) from scratch
+- **Thu** (2h): Implement encode/decode; compare vocab/merges against SentencePiece and tiktoken's cl100k_base
+- **Fri** (1.5h + 0.5h): Diff your tokenizer's output against tiktoken on a shared text sample -> video: BPE merges, visualized
 
 ## Checklist
 - [ ] Core reading/lecture done

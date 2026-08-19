@@ -15,11 +15,11 @@
 Diagram the full RLHF pipeline from memory.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Read the PPO paper (Schulman et al.), focus on the clipped surrogate objective
+- **Tue** (2h): Read the InstructGPT paper, study Figure 2's SFT->RM->PPO pipeline
+- **Wed** (2h): Project build (no video) — diagram the full RLHF pipeline from memory, then check against the paper
+- **Thu** (2h): Read HF's RLHF blog; refine your diagram, annotate each stage's loss/objective
+- **Fri** (1.5h + 0.5h): Finalize the pipeline diagram -> video: RLHF end to end, in one diagram
 
 ## Checklist
 - [ ] Core reading/lecture done

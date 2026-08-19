@@ -20,11 +20,11 @@
 Finalise research question; annotated bibliography of 5-10 relevant papers.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Read the PagedAttention/vLLM and Orca papers closely, this time with a research lens rather than an implementation one
+- **Tue** (2h): Read the SARATHI and Efficiently Scaling Transformer Inference papers
+- **Wed** (2h): Project build (no video) — read the SLO-aware and two-layer scheduling papers; watch Gil Tene's 'How NOT to Measure Latency'
+- **Thu** (2h): Draft the annotated bibliography (5-10 papers, one paragraph each on relevance to your question)
+- **Fri** (1.5h + 0.5h): Finalize your research question (batching/scheduling policy vs P99 latency under bursty load, feed-handler parallels) -> video: framing my research question
 
 ## Checklist
 - [ ] Core reading/lecture done

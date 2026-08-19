@@ -15,11 +15,11 @@
 Working baseline + written experiment design.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Read the SIGPLAN Empirical Evaluation Guidelines
+- **Tue** (2h): Read the Statistical Evaluations playbook (Krishnamachari) — claim -> design -> analysis -> reporting
+- **Wed** (2h): Project build — implement your baseline scheduling/batching policy (reuse llm-engine)
+- **Thu** (2h): Design the controlled experiment (reuse your Phase 6 template); re-watch Gil Tene's talk when defining the measurement protocol
+- **Fri** (1.5h + 0.5h): Finalize the written experiment design -> video: designing the experiment for my research project
 
 ## Checklist
 - [ ] Core reading/lecture done

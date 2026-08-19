@@ -17,11 +17,11 @@
 Add a request scheduler with dynamic batching to your server.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Re-read the Orca paper focusing on iteration-level scheduling
+- **Tue** (2h): vLLM scheduling docs + the 'Inside vLLM' blog's schedule->execute->postprocess loop
+- **Wed** (2h): Project build — write the 'scheduler ~ matching engine, TTFT ~ tick-to-trade' design note before coding
+- **Thu** (2h): Implement a request scheduler with dynamic batching on top of your Week 44 server
+- **Fri** (1.5h + 0.5h): Load-test the scheduler with concurrent requests -> video: your inference server's matching engine
 
 ## Checklist
 - [ ] Core reading/lecture done

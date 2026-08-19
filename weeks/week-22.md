@@ -16,11 +16,11 @@
 Implement GQA in your GPT (MoE/FlashAttention: understand, don't necessarily implement).
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Read the GQA paper (Ainslie et al.)
+- **Tue** (2h): Read the FlashAttention paper for understanding (not implementation) + the HF MoE blog
+- **Wed** (2h): Project build — implement grouped-query attention in your GPT (fewer KV heads, shared across query-head groups)
+- **Thu** (2h): Check GQA against full multi-head attention for correctness/parameter count; skim makeMoE for MoE intuition
+- **Fri** (1.5h + 0.5h): Compare param count/memory before vs after GQA -> video: GQA, FlashAttention, MoE — three ways to cut cost
 
 ## Checklist
 - [ ] Core reading/lecture done

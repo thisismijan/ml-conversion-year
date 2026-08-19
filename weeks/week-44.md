@@ -15,11 +15,11 @@
 A minimal working inference server.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Read Belevich's 'Inference Server From Scratch — Part 1: OpenAI API'
+- **Tue** (2h): FastAPI StreamingResponse docs; plan your server's request/response shape
+- **Wed** (2h): Project build — build a minimal HTTP server: request -> model.generate() -> response
+- **Thu** (2h): Match the OpenAI /v1/chat/completions wire format so OpenAI-client libraries work against it
+- **Fri** (1.5h + 0.5h): Test the server end to end with a real client call -> video: your GPT, now behind an API
 
 ## Checklist
 - [ ] Core reading/lecture done

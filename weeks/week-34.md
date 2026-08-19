@@ -14,11 +14,11 @@
 Train a preference model on your dataset.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): TRL RewardTrainer docs — Bradley-Terry pairwise loss, reward head architecture
+- **Tue** (2h): Re-read InstructGPT section 3.2 (reward model training/loss)
+- **Wed** (2h): Project build — add a scalar reward head to your model
+- **Thu** (2h): Train the reward model on your Week 33 preference dataset; monitor accuracy on held-out pairs
+- **Fri** (1.5h + 0.5h): Sanity-check the reward model ranks obviously-better responses higher -> video: teaching a model to score, not generate
 
 ## Checklist
 - [ ] Core reading/lecture done

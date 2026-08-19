@@ -15,11 +15,11 @@
 Deliberately break a model 3 ways (bad init, no norm, huge LR) and diagnose each from the loss curve.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): CS231n Neural Networks Part 2 (weight init pitfalls, regularization/dropout)
+- **Tue** (2h): CS231n Neural Networks Part 3 (babysitting the learning process via loss curves)
+- **Wed** (2h): Project build — break #1: bad init on a deep MLP, observe and record the loss curve
+- **Thu** (2h): Break #2 (no normalization) and #3 (huge LR); diagnose each from its loss curve, then fix each
+- **Fri** (1.5h + 0.5h): Write up the three failure signatures side by side -> video: reading a loss curve like an X-ray
 
 ## Checklist
 - [ ] Core reading/lecture done

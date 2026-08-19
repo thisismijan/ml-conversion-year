@@ -19,11 +19,11 @@
 Manually derive backprop for a 1-layer network on paper, then verify numerically in code.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): 3Blue1Brown Essence of Calculus (derivative, chain rule episodes)
+- **Tue** (2h): CS231n Optimization: Backpropagation notes; work through the staged-computation sigmoid-circuit example
+- **Wed** (2h): Project build — manually differentiate y=Wx+b, loss=(y-target)^2 on paper, writing out every chain-rule step
+- **Thu** (2h): Seeing Theory ch.1-4 (probability/distributions/Bayes); Matrix Calculus guide for the matrix-form gradient
+- **Fri** (1.5h + 0.5h): Verify your manual backprop derivation numerically in code (finite differences) -> video: chain rule as circuits
 
 ## Checklist
 - [ ] Core reading/lecture done

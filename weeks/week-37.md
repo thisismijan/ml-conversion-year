@@ -17,11 +17,11 @@
 Design (don't run yet) an eval for one modification to your GPT.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Read Zheng et al. 'Judging LLM-as-a-Judge' (MT-Bench/Chatbot Arena)
+- **Tue** (2h): Skim HELM's multi-metric design + Eugene Yan's eval-process pitfalls post
+- **Wed** (2h): Project build (no video) — pick your modification to test (RoPE vs learned positional embeddings at longer context)
+- **Thu** (2h): Design the eval: metrics, baselines, controls; sketch it as an lm-eval-harness-style task spec
+- **Fri** (1.5h + 0.5h): Finalize the eval design doc, don't run it yet -> video: designing an eval before you run it
 
 ## Checklist
 - [ ] Core reading/lecture done

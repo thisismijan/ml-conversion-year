@@ -16,11 +16,11 @@
 Add streaming output; build a benchmark harness reporting P50/P99/P999, not just averages.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): BentoML's Key metrics for LLM inference handbook (TTFT/TPOT/throughput)
+- **Tue** (2h): Spheron's SLO Engineering blog + Neel Mishra's benchmarking post
+- **Wed** (2h): Project build — add streaming (SSE) output to your server
+- **Thu** (2h): Build a benchmark harness reporting P50/P99/P999, not just averages; compare against vLLM's benchmark_serving.py
+- **Fri** (1.5h + 0.5h): Run the harness under load, inspect the tail -> video: P50 lies, P99 doesn't
 
 ## Checklist
 - [ ] Core reading/lecture done

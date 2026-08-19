@@ -20,11 +20,11 @@
 Write a page connecting SVD/eigenvectors to something in ML (e.g. PCA or attention).
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Take the mitmath/1806 diagnostic pset cold, no notes — mark what you don't remember
+- **Tue** (2h): 3Blue1Brown Essence of Linear Algebra eps 1-8 (vectors, span, transformations, determinant), targeting your diagnostic gaps
+- **Wed** (2h): Project build — MML book ch.2 exercises (rank, norms) + Strang lecture 21 (eigenvalues/eigenvectors)
+- **Thu** (2h): Strang lecture 29 (SVD) + ZoomNotes distillation; connect tokens -> embedding matrix -> X@W conceptually
+- **Fri** (1.5h + 0.5h): Write the SVD/eigenvectors -> PCA or attention page -> video: SVD explained with a diagram
 
 ## Checklist
 - [ ] Core reading/lecture done

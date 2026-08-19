@@ -14,11 +14,11 @@
 Finalised results, graphs.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Re-read the Statistical Evaluations playbook's guidance on investigating anomalies defensibly
+- **Tue** (2h): Re-watch Gil Tene's talk — check for Coordinated Omission as the first suspect for any tail-latency anomaly
+- **Wed** (2h): Project build — dig into the most unexpected result; instrument further if needed
+- **Thu** (2h): Finalize results and generate clean graphs
+- **Fri** (1.5h + 0.5h): Sanity-check the final numbers end to end -> video: chasing down the weird result
 
 ## Checklist
 - [ ] Core reading/lecture done

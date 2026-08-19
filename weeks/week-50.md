@@ -14,11 +14,11 @@
 Raw results + first-pass analysis.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Set up logging/instrumentation per your experiment design
+- **Tue** (2h): Study vLLM's benchmark harness methodology (ShareGPT-based load generation) to mirror for your runs
+- **Wed** (2h): Project build — run the first batch of experiments
+- **Thu** (2h): Iterate — rerun with adjustments, log everything, avoid p-hacking (reuse the SIGPLAN guidelines)
+- **Fri** (1.5h + 0.5h): First-pass analysis of raw results -> video: first results, first surprises
 
 ## Checklist
 - [ ] Core reading/lecture done

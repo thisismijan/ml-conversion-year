@@ -17,11 +17,11 @@
 Profile a matmul; identify if it's compute- or memory-bound.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Modal's GPU Glossary — memory hierarchy, CUDA programming model, thread hierarchy
+- **Tue** (2h): Read Simon Boehm's CUDA matmul optimization worklog + the Roofline Modeling article
+- **Wed** (2h): Project build — set up PyTorch Profiler on a matmul at a few sizes
+- **Thu** (2h): Classify each size as compute- or memory-bound with the roofline framework; try a minimal CUDA/Triton kernel snippet
+- **Fri** (1.5h + 0.5h): Write up your compute-vs-memory-bound findings -> video: reading a GPU profile like a flame graph
 
 ## Checklist
 - [ ] Core reading/lecture done

@@ -16,11 +16,11 @@
 A single working Transformer block, unit-tested.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Re-watch Karpathy's block-assembly segment
+- **Tue** (2h): Compare nanoGPT's model.py block structure to the Annotated Transformer's EncoderLayer/DecoderLayer
+- **Wed** (2h): Project build — assemble attention + MLP + norm + residuals into one Block class
+- **Thu** (2h): Write a unit test (fixed-seed input, assert output shape + gradients reach every parameter); fix breakage
+- **Fri** (1.5h + 0.5h): Get the unit test green -> video: anatomy of a transformer block
 
 ## Checklist
 - [ ] Core reading/lecture done

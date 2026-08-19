@@ -16,11 +16,11 @@
 Add all four to your attention module.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Kazemnejad's positional encoding blog
+- **Tue** (2h): Illustrated Transformer diagrams for multi-head split/concat and residual/LayerNorm sublayers
+- **Wed** (2h): Project build — add multi-head attention (split/concat) and causal masking to your attention module
+- **Thu** (2h): Add sinusoidal positional encoding + LayerNorm + residual connections; visualize masked vs unmasked attention heatmaps
+- **Fri** (1.5h + 0.5h): Compare the heatmaps side by side -> video: causal masking, made visible
 
 ## Checklist
 - [ ] Core reading/lecture done

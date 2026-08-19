@@ -15,11 +15,11 @@
 Milestone: modern-gpt repo complete + fine-tuned checkpoint.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Re-read the PEFT Quicktour + QLoRA's Guanaco eval methodology as a template
+- **Tue** (2h): Prepare a small instruction dataset for the fine-tune
+- **Wed** (2h): Project build — run a real fine-tune of modern-gpt with your own LoRA implementation
+- **Thu** (2h): Evaluate outputs; compare against a PEFT-library LoRA fine-tune of the same base model/data
+- **Fri** (1.5h + 0.5h): Finalize the modern-gpt repo + checkpoint -> video: Phase 4 milestone wrap
 
 ## Checklist
 - [ ] Core reading/lecture done

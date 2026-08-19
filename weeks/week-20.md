@@ -15,11 +15,11 @@
 Swap learned pos-embeddings for RoPE in your GPT.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Read the RoFormer paper (Su et al.), focus on the rotation derivation
+- **Tue** (2h): Study the ZhuiyiTechnology reference implementation
+- **Wed** (2h): Project build — implement RoPE and swap it in for your GPT's learned positional embeddings
+- **Thu** (2h): Debug shapes/rotation angles; retrain briefly to confirm it still learns
+- **Fri** (1.5h + 0.5h): Plot attention-score decay vs relative token distance before/after RoPE -> video: why rotating Q/K encodes position
 
 ## Checklist
 - [ ] Core reading/lecture done

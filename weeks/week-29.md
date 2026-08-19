@@ -15,11 +15,11 @@
 Implement a tiny policy-gradient example (e.g. bandit or gridworld).
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Spinning Up Part 1 (RL intro: states/actions/rewards/policies/value functions)
+- **Tue** (2h): Spinning Up Part 3 (policy gradient derivation)
+- **Wed** (2h): Project build — implement REINFORCE on a multi-armed bandit
+- **Thu** (2h): Extend to a gridworld; check against spinningup's vpg.py reference
+- **Fri** (1.5h + 0.5h): Confirm the policy converges to the best arm/path -> video: policy gradients from scratch
 
 ## Checklist
 - [ ] Core reading/lecture done

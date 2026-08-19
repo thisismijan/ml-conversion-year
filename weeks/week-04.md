@@ -19,11 +19,11 @@
 Implement SGD and Adam with NumPy. Milestone: explain 'how does a neural net learn' end-to-end, in code.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Chris Olah's Visual Information Theory; CS231n softmax/cross-entropy notes
+- **Tue** (2h): Implement softmax + cross-entropy from scratch in NumPy; test against a known worked example
+- **Wed** (2h): Project build — implement plain SGD with NumPy on a toy loss surface
+- **Thu** (2h): Ruder's optimization overview -> add momentum + Adam; CS231n Part 3 for LR schedules/weight decay/train-val-test
+- **Fri** (1.5h + 0.5h): Reproduce Ruder's optimizer-comparison plot on your own 2D loss function -> video: how a neural net learns, end to end
 
 ## Checklist
 - [ ] Core reading/lecture done

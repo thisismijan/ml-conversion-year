@@ -17,11 +17,11 @@
 Fine-tune an open small model using an existing LoRA library.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Read the LoRA paper (Hu et al.)
+- **Tue** (2h): Read the QLoRA paper (Dettmers et al.) + HF quantization docs (bitsandbytes/GPTQ/AWQ)
+- **Wed** (2h): Project build — follow the HF PEFT Quicktour to LoRA-fine-tune a small open model
+- **Thu** (2h): Repeat with QLoRA (4-bit); compare memory footprint and quality between the two
+- **Fri** (1.5h + 0.5h): Write up the LoRA vs QLoRA comparison -> video: survey of the fine-tuning landscape
 
 ## Checklist
 - [ ] Core reading/lecture done

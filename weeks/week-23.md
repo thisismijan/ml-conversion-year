@@ -15,11 +15,11 @@
 Estimate compute-optimal token count for your model size; compare to Chinchilla.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Read the Kaplan et al. scaling laws paper
+- **Tue** (2h): Read the Chinchilla paper (Hoffmann et al.), focus on the compute-optimal formula
+- **Wed** (2h): Project build (no video) — compute your model's exact parameter count and FLOPs
+- **Thu** (2h): Estimate compute-optimal token count for your model size; compare to what you actually trained on
+- **Fri** (1.5h + 0.5h): Plot where your model sits on the Chinchilla frontier scaled to 1B/10B -> video: is my GPT over- or under-trained?
 
 ## Checklist
 - [ ] Core reading/lecture done

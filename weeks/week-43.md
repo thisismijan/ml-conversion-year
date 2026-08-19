@@ -16,11 +16,11 @@
 Write up how you'd parallelise training your GPT across N GPUs (design doc, doesn't need real hardware).
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): HF's Ultra-Scale Playbook — data/tensor/pipeline parallelism sections
+- **Tue** (2h): HF Parallelism methods docs + PyTorch FSDP tutorial
+- **Wed** (2h): Project build (no video) — sketch how you'd parallelise training your GPT across N GPUs
+- **Thu** (2h): Read NCCL docs for what actually moves between GPUs; refine the design doc with a checkpointing strategy
+- **Fri** (1.5h + 0.5h): Finalize the parallelisation design doc -> video: how I'd scale my GPT's training across N GPUs
 
 ## Checklist
 - [ ] Core reading/lecture done

@@ -17,11 +17,11 @@
 Write a plain-English + math walkthrough of self-attention (this is your video script).
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Read Attention Is All You Need section 3.2 closely, skim the rest
+- **Tue** (2h): The Illustrated Transformer blog — the Q/K/V walkthrough
+- **Wed** (2h): Project build (no video) — draw Q/K/V shapes for a toy 4-token example by hand; work softmax(QK^T/sqrt(d))V numerically on paper
+- **Thu** (2h): Watch Karpathy's self-attention derivation segment; map it onto the paper's notation
+- **Fri** (1.5h + 0.5h): Write the plain-English + math self-attention walkthrough — this IS the video script — and record it
 
 ## Checklist
 - [ ] Core reading/lecture done

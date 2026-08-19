@@ -16,11 +16,11 @@
 Build a bigram language model; generate (bad) text.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Karpathy's makemore video, part 1 (bigram counting model)
+- **Tue** (2h): The Illustrated GPT-2 blog — tokens/embeddings/context windows, conceptual grounding
+- **Wed** (2h): Project build — implement the bigram counting model, sample from it
+- **Thu** (2h): Reimplement as a tiny neural net (embedding + linear layer); compare to the counting version
+- **Fri** (1.5h + 0.5h): Try a trigram extension by hand -> video: why bigrams break down, motivating attention
 
 ## Checklist
 - [ ] Core reading/lecture done

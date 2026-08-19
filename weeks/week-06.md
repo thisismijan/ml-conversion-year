@@ -16,11 +16,11 @@
 micrograd-style engine, tested against PyTorch's autograd on the same expression.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Karpathy's micrograd video, part 1 (building the Value class)
+- **Tue** (2h): Continue the micrograd video (backward(), topological sort)
+- **Wed** (2h): Project build — implement your own Value class with +, *, and backward()
+- **Thu** (2h): Extend the engine (tanh/relu, more ops); test gradients against PyTorch autograd on the same expression
+- **Fri** (1.5h + 0.5h): Cross-check your engine against the karpathy/micrograd repo -> video: what backward() actually does
 
 ## Checklist
 - [ ] Core reading/lecture done

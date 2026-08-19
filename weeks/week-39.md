@@ -16,11 +16,11 @@
 Milestone: 3-5 page research report, hypothesis -> methodology -> result -> discussion.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Read Peyton Jones 'How to Write a Great Research Paper' + 'Ten Simple Rules for Structuring Papers'
+- **Tue** (2h): Outline the report: hypothesis -> methodology -> result -> discussion
+- **Wed** (2h): Project build (no video) — draft the results/methodology sections with your Week 38 data
+- **Thu** (2h): Draft hypothesis/discussion sections; read Steinhardt's 'Research as a Stochastic Decision Process' for framing
+- **Fri** (1.5h + 0.5h): Have someone read only your abstract/intro and restate your hypothesis back to you; revise -> video: the 3-5 page report
 
 ## Checklist
 - [ ] Core reading/lecture done

@@ -15,11 +15,11 @@
 LoRA implemented from scratch, applied to your GPT.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Re-read LoRA paper sections 4 & 7 closely (the delta-W = BA math)
+- **Tue** (2h): Study Microsoft's loralib reference implementation
+- **Wed** (2h): Project build — implement a LoRA adapter layer from scratch (low-rank A/B, merge/unmerge)
+- **Thu** (2h): Apply it to your GPT's attention/MLP projections; sweep rank r
+- **Fri** (1.5h + 0.5h): Plot trainable-param-count vs eval loss across ranks -> video: LoRA from first principles
 
 ## Checklist
 - [ ] Core reading/lecture done

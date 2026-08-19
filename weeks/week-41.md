@@ -16,11 +16,11 @@
 Diagram + implement a minimal prefill/decode loop with KV cache.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): HF Transformers Caching docs (use_cache/past_key_values)
+- **Tue** (2h): Pierre Lienhart's KV caching blog + Belevich's greedy_generate() reference
+- **Wed** (2h): Project build — diagram prompt -> prefill -> KV cache -> decode -> sampling
+- **Thu** (2h): Implement a minimal prefill/decode loop with KV cache
+- **Fri** (1.5h + 0.5h): Log prefill time vs per-decode-step time separately -> video: why prefill and decode feel so different
 
 ## Checklist
 - [ ] Core reading/lecture done

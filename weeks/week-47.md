@@ -14,11 +14,11 @@
 Milestone: llm-engine repo with benchmarks and a latency writeup.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Read Pope et al. 'Efficiently Scaling Transformer Inference' — the Pareto-frontier framing
+- **Tue** (2h): Consolidate all benchmark runs (static vs dynamic batching) into comparable tables/plots
+- **Wed** (2h): Project build (no video) — draft the llm-engine latency writeup's methodology + results sections
+- **Thu** (2h): Draft the analysis/discussion, modeled on Pope et al.'s structure; polish the repo
+- **Fri** (1.5h + 0.5h): Finalize llm-engine repo + writeup -> video: batching strategies, benchmarked
 
 ## Checklist
 - [ ] Core reading/lecture done

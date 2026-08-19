@@ -15,11 +15,11 @@
 Swap in RMSNorm + SwiGLU, compare training curves.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Read the RMSNorm paper (Zhang & Sennrich)
+- **Tue** (2h): Read the GLU Variants paper (Shazeer) for SwiGLU
+- **Wed** (2h): Project build — swap LayerNorm for RMSNorm in your GPT
+- **Thu** (2h): Swap the MLP activation for SwiGLU; run LayerNorm-vs-RMSNorm and ReLU-vs-SwiGLU ablations
+- **Fri** (1.5h + 0.5h): Plot both loss curves on the same chart -> video: two small swaps, one modern GPT
 
 ## Checklist
 - [ ] Core reading/lecture done

@@ -17,11 +17,11 @@
 Add basic batching to your inference loop.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Read the Orca paper (Yu et al.) — continuous/iteration-level batching
+- **Tue** (2h): Read the PagedAttention/vLLM paper (Kwon et al.) + skim the FlashAttention paper
+- **Wed** (2h): Project build — add static batching to your inference loop
+- **Thu** (2h): Study vLLM's Optimization and Tuning docs; note the knobs (max-num-seqs etc.) mapping to what you built
+- **Fri** (1.5h + 0.5h): Read 'Inside vLLM: Anatomy of a High-Throughput LLM Inference System' -> video: static batching, and where continuous batching goes next
 
 ## Checklist
 - [ ] Core reading/lecture done

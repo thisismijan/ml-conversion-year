@@ -17,11 +17,11 @@
 Public, polished versions of the first 3 milestone repos. Notes on interview feedback.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Tidy the tinygrad repo — README, code cleanup, publish
+- **Tue** (2h): Tidy gpt-from-scratch and modern-gpt repos — README, code cleanup, publish
+- **Wed** (2h): Read Chip Huyen's ML interview book + Designing ML Systems booklet; note your gaps
+- **Thu** (2h): Do 1-2 mock ML-infra/research-engineer interviews using Aminian & Xu's 7-step framework as structure
+- **Fri** (1.5h + 0.5h): Write up interview feedback + reassess pace for phases 5-8 -> video: portfolio tour + what's next
 
 ## Checklist
 - [ ] Core reading/lecture done

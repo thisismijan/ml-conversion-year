@@ -17,11 +17,11 @@
 Write a one-page 'how I'll know if this change worked' template you'll reuse in Phase 8.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Read Dodge et al. 'Show Your Work'
+- **Tue** (2h): Read Henderson et al. 'Deep RL that Matters' + skim the benchmark contamination survey
+- **Wed** (2h): Project build (no video) — draft your 'how I'll know if this change worked' one-page template
+- **Thu** (2h): Cross-check the template against the NeurIPS Paper Checklist; revise
+- **Fri** (1.5h + 0.5h): Reproduce one small claim from Dodge et al.'s framing on your Week 1 linear regression -> video: what makes an ML claim trustworthy
 
 ## Checklist
 - [ ] Core reading/lecture done

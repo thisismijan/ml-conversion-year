@@ -20,11 +20,11 @@
 Implement linear regression with NumPy (no sklearn): prediction -> MSE -> gradients -> gradient descent -> plot loss.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): NumPy Quickstart + Broadcasting docs — practice ndarray shapes, slicing, matmul/reshape/transpose in a scratch notebook
+- **Tue** (2h): 10 Minutes to pandas; set up Jupyter/venv; load fetch_california_housing(), inspect with pandas/matplotlib
+- **Wed** (2h): Project build (no video) — implement prediction (Xw+b) and MSE loss in NumPy
+- **Thu** (2h): Implement gradients + gradient descent loop; use the Towards Data Science walkthrough where stuck; debug convergence
+- **Fri** (1.5h + 0.5h): Plot the loss curve, sanity-check against sklearn's LinearRegression -> record video: how gradient descent finds the line
 
 ## Checklist
 - [ ] Core reading/lecture done

@@ -15,11 +15,11 @@
 Milestone: tinygrad repo — your own autodiff + NN library, README with design notes.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Skim the tinygrad repo — README, core ops, design choices
+- **Tue** (2h): Revisit your Week 6 engine; plan what needs extending to tensor-level ops
+- **Wed** (2h): Project build — rewrite your Week 7 MLP with most forward/training logic hand-rolled, minimal nn.*
+- **Thu** (2h): Finish the reimplementation; write tests comparing outputs/gradients to the nn.*-based version
+- **Fri** (1.5h + 0.5h): Write the tinygrad repo README with design notes vs tinygrad's choices -> video: what minimal abstraction buys you
 
 ## Checklist
 - [ ] Core reading/lecture done

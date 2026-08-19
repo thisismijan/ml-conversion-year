@@ -16,11 +16,11 @@
 Milestone: gpt-from-scratch repo + technical write-up of every component.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Read the GPT-2 paper (Radford et al.), focus on architecture/training details
+- **Tue** (2h): Read the GPT-3 paper section 2.1 (architecture), skim the scaling results
+- **Wed** (2h): Project build (no video) — write the gpt-from-scratch technical write-up, component by component
+- **Thu** (2h): Tabulate your config vs GPT-2-small (12, 12, 768, 124M); note every architectural gap
+- **Fri** (1.5h + 0.5h): Finish the write-up, polish the repo README -> video: my GPT vs the real thing — milestone wrap
 
 ## Checklist
 - [ ] Core reading/lecture done

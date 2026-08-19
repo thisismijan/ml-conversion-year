@@ -15,11 +15,11 @@
 Train on a small corpus; sample text at a few temperatures.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Watch Karpathy's training-loop/sampling segment
+- **Tue** (2h): HF docs on decoding methods (temperature/top-k/top-p) and the order they're applied
+- **Wed** (2h): Project build — set up tokenisation, batching, sequence length, train/val split on a small corpus
+- **Thu** (2h): Train the model tracking validation loss; implement temperature + top-k sampling
+- **Fri** (1.5h + 0.5h): Sample text at a few temperatures, plot val loss for 2-3 LRs -> video: watching your GPT learn to babble
 
 ## Checklist
 - [ ] Core reading/lecture done

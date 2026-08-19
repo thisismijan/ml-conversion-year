@@ -14,11 +14,11 @@
 Implement DPO loss from the paper's derivation.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Read the DPO paper (Rafailov et al.) section 4 closely
+- **Tue** (2h): Read the Constitutional AI paper (Bai et al.) for the RLAIF comparison
+- **Wed** (2h): Project build — derive the DPO loss on paper from the Bradley-Terry + reward reparameterization steps
+- **Thu** (2h): Implement the DPO loss function in code from your derivation
+- **Fri** (1.5h + 0.5h): Unit-test the loss against known input/output pairs -> video: DPO's trick — skipping the reward model
 
 ## Checklist
 - [ ] Core reading/lecture done

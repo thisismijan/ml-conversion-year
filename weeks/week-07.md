@@ -14,11 +14,11 @@
 Train an MLP on a toy dataset end to end.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Karpathy's makemore Part 2 video (embeddings, hidden layer setup)
+- **Tue** (2h): Finish makemore Part 2 (training loop, loss); skim PyTorch nn.Module/optim docs
+- **Wed** (2h): Project build — write Linear layer + activation + MLP class, minimal nn.* usage
+- **Thu** (2h): Wire up loss + optimiser + training loop; train on a toy dataset, debug convergence
+- **Fri** (1.5h + 0.5h): Plot train loss to confirm it learns -> video: anatomy of a training loop
 
 ## Checklist
 - [ ] Core reading/lecture done

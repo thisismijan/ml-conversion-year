@@ -14,11 +14,11 @@
 SFT your GPT on an instruction dataset.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): TRL SFTTrainer docs — data formatting, loss masking
+- **Tue** (2h): Download/prepare the Stanford Alpaca dataset; inspect its format
+- **Wed** (2h): Project build — write an SFT training loop for your GPT
+- **Thu** (2h): Run SFT on a subset of Alpaca; monitor loss, checkpoint
+- **Fri** (1.5h + 0.5h): Sample instruction-following outputs before/after SFT -> video: what SFT actually changes
 
 ## Checklist
 - [ ] Core reading/lecture done

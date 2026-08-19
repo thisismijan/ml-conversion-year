@@ -16,11 +16,11 @@
 Self-attention module passing a numerical gradient check.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Re-watch the Head-module implementation segment of Let's Build GPT
+- **Tue** (2h): Study the Annotated Transformer's attention implementation line by line
+- **Wed** (2h): Project build — implement a single self-attention head from raw matmuls, no nn.MultiheadAttention
+- **Thu** (2h): Write a numerical gradient check (CS231n method) + cross-check with torch.autograd.gradcheck; fix bugs
+- **Fri** (1.5h + 0.5h): Get the gradient check passing cleanly -> video: what a gradient check actually verifies
 
 ## Checklist
 - [ ] Core reading/lecture done

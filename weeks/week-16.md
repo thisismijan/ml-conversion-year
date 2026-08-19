@@ -16,11 +16,11 @@
 A tiny, architecturally-correct GPT.
 
 ## Daily plan (10h)
-- **Mon** (2h): Theory / implement concepts
-- **Tue** (2h): Theory / implementation
-- **Wed** (2h): Project build (no videos)
-- **Thu** (2h): Reading / experiments & debugging
-- **Fri** (1.5h + 0.5h): Read a paper / reproduce a result -> curate into weekly video
+- **Mon** (2h): Read nanoGPT's model.py end to end — the full GPT class, not just the Block
+- **Tue** (2h): Skim minGPT as a second, smaller reference; note the differences from nanoGPT
+- **Wed** (2h): Project build — stack your Blocks into a full GPT class (embedding, N blocks, final norm, output head)
+- **Thu** (2h): Wire up the forward pass end to end on dummy input; sanity-check parameter count against a back-of-envelope calc
+- **Fri** (1.5h + 0.5h): Confirm architecture correctness -> video: from block to full model
 
 ## Checklist
 - [ ] Core reading/lecture done
