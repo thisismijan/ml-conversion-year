@@ -5,6 +5,13 @@
 ## Goals
 - Assemble attention + MLP + norm + residuals into one block
 
+## Resources
+- **[Video]** Let's build GPT (assembling the Transformer Block: attention + MLP + norm + residual) — Andrej Karpathy — https://www.youtube.com/watch?v=kCc8FmEb1nY
+- **[Code]** nanoGPT model.py — Andrej Karpathy — https://github.com/karpathy/nanoGPT/blob/master/model.py — canonical minimal, readable reference for a correctly-assembled GPT block to unit-test your own against
+- **[Code]** The Annotated Transformer, EncoderLayer/DecoderLayer — Harvard NLP — https://nlp.seas.harvard.edu/annotated-transformer/ — second independent reference implementation for cross-checking block structure
+
+**Stretch:** Write a unit test that feeds a fixed-seed input through your block and asserts output shape and that gradients flow to every parameter.
+
 ## Milestone / exercise
 A single working Transformer block, unit-tested.
 

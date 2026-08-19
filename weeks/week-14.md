@@ -5,6 +5,13 @@
 ## Goals
 - Causal masking, multi-head attention, positional encoding, layer norm, residual connections
 
+## Resources
+- **[Video]** Let's build GPT (multi-head attention, positional encoding, LayerNorm, residuals segment) — Andrej Karpathy — https://www.youtube.com/watch?v=kCc8FmEb1nY
+- **[Blog]** Transformer Architecture: The Positional Encoding — Amirhossein Kazemnejad — https://kazemnejad.com/blog/transformer_architecture_positional_encoding/ — deep-dive on why sinusoidal positional encodings work and their relative-position property
+- **[Blog]** The Illustrated Transformer — Jay Alammar — https://jalammar.github.io/illustrated-transformer/ — clear diagrams for multi-head split/concat and the residual+LayerNorm sublayers
+
+**Stretch:** Compare causal (decoder) masking vs no masking by visualizing the attention matrix as a heatmap for both.
+
 ## Milestone / exercise
 Add all four to your attention module.
 

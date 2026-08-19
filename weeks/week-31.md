@@ -5,6 +5,11 @@
 ## Goals
 - DPO derivation, RLAIF
 
+## Resources
+- **[Paper]** Direct Preference Optimization: Your Language Model is Secretly a Reward Model — Rafailov et al. (2023) — https://arxiv.org/abs/2305.18290 — section 4 has the derivation you're asked to implement from
+- **[Paper]** Constitutional AI: Harmlessness from AI Feedback — Bai et al., Anthropic (2022) — https://arxiv.org/abs/2212.08073 — the RLAIF reference; SL-CAI + RL-CAI two-stage pipeline
+
+
 ## Milestone / exercise
 Implement DPO loss from the paper's derivation.
 

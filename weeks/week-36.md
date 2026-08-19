@@ -5,6 +5,14 @@
 ## Goals
 - Hypotheses, baselines, ablations, controlled experiments, statistical significance, variance, reproducibility, benchmark contamination
 
+## Resources
+- **[Paper]** Show Your Work: Improved Reporting of Experimental Results — Dodge, Gururangan, Card, Schwartz, Smith (EMNLP 2019) — https://aclanthology.org/D19-1224/ — point-estimate comparisons mislead; report expected performance vs compute budget, directly informs the 'how I'll know it worked' template
+- **[Paper]** Deep Reinforcement Learning that Matters — Henderson et al. — https://arxiv.org/abs/1709.06560 — canonical demonstration of how much variance/seeds/hyperparameters swing reported results
+- **[Survey]** Benchmark Data Contamination of Large Language Models: A Survey — https://arxiv.org/abs/2406.04244 — current survey of contamination failure modes, needed before trusting any benchmark number
+- **[Checklist]** NeurIPS Paper Checklist Guidelines — https://neurips.cc/public/guides/PaperChecklist — field-standard checklist for what makes an ML experimental claim valid, reusable as the literal template
+
+**Stretch:** Reproduce one small claim from the Dodge et al. paper's budget-vs-performance framing on your own Week 1 linear regression.
+
 ## Milestone / exercise
 Write a one-page 'how I'll know if this change worked' template you'll reuse in Phase 8.
 

@@ -5,6 +5,12 @@
 ## Goals
 - BPE / SentencePiece-style approaches
 
+## Resources
+- **[Video+Repo]** Let's build the GPT Tokenizer — Andrej Karpathy — https://www.youtube.com/watch?v=zduSFxRajkE (repo: https://github.com/karpathy/minbpe) — builds a BPE tokenizer from scratch, the exact milestone for this week; minbpe's exercise.md has 4 progressive steps to a GPT-4-equivalent tokenizer
+- **[Docs]** SentencePiece — Google (GitHub) — https://github.com/google/sentencepiece — compare against a production BPE/unigram library after building your own
+
+**Stretch:** Diff your tokenizer's vocab/merges against tiktoken's cl100k_base on a shared text sample.
+
 ## Milestone / exercise
 Implement a BPE tokenizer yourself.
 

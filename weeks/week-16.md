@@ -5,6 +5,13 @@
 ## Goals
 - Stack blocks into a full model
 
+## Resources
+- **[Repo]** nanoGPT — Andrej Karpathy — https://github.com/karpathy/nanoGPT — 'the simplest, fastest repository for training/finetuning medium-sized GPTs,' the direct target architecture for stacking blocks into a full model
+- **[Video]** Let's build GPT (full model assembly + generation loop) — Andrej Karpathy — https://www.youtube.com/watch?v=kCc8FmEb1nY
+- **[Repo]** minGPT — Andrej Karpathy — https://github.com/karpathy/minGPT — even smaller (~300 line) reference if nanoGPT feels too dense
+
+**Stretch:** Print total parameter count and compare it against a back-of-envelope calc (embedding + per-layer attention/MLP params x n_layer).
+
 ## Milestone / exercise
 A tiny, architecturally-correct GPT.
 

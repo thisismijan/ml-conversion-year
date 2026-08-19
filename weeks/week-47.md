@@ -5,6 +5,11 @@
 ## Goals
 - Consolidate benchmarks, compare batching strategies
 
+## Resources
+- **[Paper]** Efficiently Scaling Transformer Inference — Pope et al. (Google), MLSys 2023 Outstanding Paper — https://arxiv.org/abs/2211.05102 — gold-standard example of a rigorous latency/throughput/MFU writeup; model your llm-engine writeup's structure on this paper's Pareto-frontier framing
+
+**Stretch:** Reuse week 46's metrics resources for the benchmark-harness section of the writeup.
+
 ## Milestone / exercise
 Milestone: llm-engine repo with benchmarks and a latency writeup.
 

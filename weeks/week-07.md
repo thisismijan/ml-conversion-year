@@ -5,6 +5,11 @@
 ## Goals
 - Linear layer, activation, MLP, loss, optimiser, training loop from scratch in PyTorch
 
+## Resources
+- **[Video]** Building makemore Part 2: MLP — Andrej Karpathy — https://www.youtube.com/watch?v=TCH_1BHY58I — builds an MLP + training loop in PyTorch from scratch, directly matching this week's milestone
+- **[Tutorial]** Learn the Basics: Build Model / Autograd / Optimization — PyTorch official docs — https://docs.pytorch.org/tutorials/beginner/basics/intro.html — reference for nn.Module, loss functions, optimizer API while building the MLP by hand
+
+
 ## Milestone / exercise
 Train an MLP on a toy dataset end to end.
 

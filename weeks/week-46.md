@@ -5,6 +5,13 @@
 ## Goals
 - TTFT, TPOT, throughput (tokens/sec), GPU memory utilisation, P50/P99/P999 latency (bring trading rigor here)
 
+## Resources
+- **[Handbook]** Key metrics for LLM inference — BentoML LLM Inference Handbook — https://bentoml.com/llm/llm-inference-basics/llm-inference-metrics — defines TTFT/TPOT/throughput precisely
+- **[Blog]** LLM Inference SLO Engineering: TTFT, ITL, and P99 Latency Budgets for Production AI — Spheron — https://www.spheron.network/blog/llm-inference-slo-ttft-itl-latency-budget-guide-2026/ — directly frames P50/P95/P99/P99.9 tradeoffs
+- **[Blog]** LLM Benchmarking: Latency, Throughput, TTFT, TPS — Neel Mishra — https://neelmishra.github.io/blog/mlops/llm-inference/inference-benchmarking.html
+
+**Stretch:** Compare your P50/P99 methodology against vLLM's own benchmark_serving.py (in the vLLM repo) as a reference implementation, without depending on vLLM itself.
+
 ## Milestone / exercise
 Add streaming output; build a benchmark harness reporting P50/P99/P999, not just averages.
 

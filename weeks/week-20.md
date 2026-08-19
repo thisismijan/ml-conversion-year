@@ -5,6 +5,12 @@
 ## Goals
 - Rotary position embeddings — theory and implementation
 
+## Resources
+- **[Paper]** RoFormer: Enhanced Transformer with Rotary Position Embedding — Su et al. — https://arxiv.org/abs/2104.09864 — the RoPE paper itself
+- **[Repo]** RoFormer reference implementation — ZhuiyiTechnology — https://github.com/ZhuiyiTechnology/roformer — original authors' code to check your implementation against
+
+**Stretch:** Plot attention score decay vs relative token distance before/after adding RoPE.
+
 ## Milestone / exercise
 Swap learned pos-embeddings for RoPE in your GPT.
 

@@ -5,6 +5,13 @@
 ## Goals
 - Tensor/pipeline/data parallelism, FSDP, NCCL, checkpointing
 
+## Resources
+- **[Interactive book]** The Ultra-Scale Playbook: Training LLMs on GPU Clusters — Hugging Face (nanotron) — https://huggingface.co/spaces/nanotron/ultrascale-playbook — grounded in 4,000+ real scaling experiments; covers DP/TP/PP/context-parallel/ZeRO in one place
+- **[Docs]** Parallelism methods — Hugging Face Transformers — https://huggingface.co/docs/transformers/en/perf_train_gpu_many
+- **[Tutorial]** Getting Started with FSDP — PyTorch — https://docs.pytorch.org/tutorials/intermediate/FSDP1_tutorial.html (note: FSDP2 is now current)
+- **[Docs]** NCCL documentation — NVIDIA — https://docs.nvidia.com/deeplearning/nccl/ — reference for what's actually moving data between GPUs under DDP/FSDP
+
+
 ## Milestone / exercise
 Write up how you'd parallelise training your GPT across N GPUs (design doc, doesn't need real hardware).
 

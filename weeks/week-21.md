@@ -5,6 +5,12 @@
 ## Goals
 - RMSNorm vs LayerNorm, SwiGLU activation
 
+## Resources
+- **[Paper]** Root Mean Square Layer Normalization — Zhang & Sennrich — https://arxiv.org/abs/1910.07467 — the RMSNorm paper
+- **[Paper]** GLU Variants Improve Transformer — Noam Shazeer — https://arxiv.org/abs/2002.05202 — introduces SwiGLU, now standard in LLaMA/PaLM/DeepSeek
+
+**Stretch:** Ablate LayerNorm-vs-RMSNorm and ReLU-vs-SwiGLU independently; log both loss curves on the same plot.
+
 ## Milestone / exercise
 Swap in RMSNorm + SwiGLU, compare training curves.
 

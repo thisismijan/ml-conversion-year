@@ -7,6 +7,12 @@
 - Do 1-2 mock ML-infra / research-engineer interviews
 - Reassess pace for phases 5-8 based on actual (not planned) progress
 
+## Resources
+- **[Free book]** Introduction to Machine Learning Interviews — Chip Huyen — https://huyenchip.com/ml-interviews-book/ — free, and closer to research/ML-infra interview shape than generic ML-breadth prep
+- **[Book]** Designing Machine Learning Systems — Chip Huyen (O'Reilly 2022) — companion free booklet: https://github.com/chiphuyen/machine-learning-systems-design
+- **[Book]** Machine Learning System Design Interview — Ali Aminian & Alex Xu (ByteByteGo 2023) — 7-step framework + worked ML-serving-style problems
+
+
 ## Milestone / exercise
 Public, polished versions of the first 3 milestone repos. Notes on interview feedback.
 

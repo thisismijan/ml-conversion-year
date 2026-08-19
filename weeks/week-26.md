@@ -5,6 +5,11 @@
 ## Goals
 - GPT v1 -> RoPE -> RMSNorm -> GQA -> LoRA -> fine-tuned model
 
+## Resources
+- No new external resources — pure integration of weeks 19-25 (BPE, RoPE, RMSNorm/SwiGLU, GQA, LoRA) inside your own modern-gpt repo.
+
+**Stretch:** Write a short design-doc/README section mapping each modification to its source paper — good scaffolding for the Friday video.
+
 ## Milestone / exercise
 modern-gpt repo assembling the full stack.
 

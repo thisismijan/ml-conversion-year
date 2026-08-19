@@ -5,6 +5,14 @@
 ## Goals
 - SFT, LoRA, QLoRA, PEFT, quantisation — survey
 
+## Resources
+- **[Docs]** PEFT Quicktour — Hugging Face — https://huggingface.co/docs/peft/quicktour — practical LoRA fine-tune of an open model, this week's milestone
+- **[Paper]** LoRA: Low-Rank Adaptation of Large Language Models — Hu et al. — https://arxiv.org/abs/2106.09685 — read before using the library
+- **[Paper]** QLoRA: Efficient Finetuning of Quantized LLMs — Dettmers et al. — https://arxiv.org/abs/2305.14314 — 4-bit NF4 + LoRA
+- **[Docs]** Quantization overview (bitsandbytes/GPTQ/AWQ) — Hugging Face Transformers docs — https://huggingface.co/docs/transformers/main_classes/quantization
+
+**Stretch:** Fine-tune the same base model with both full LoRA (16-bit) and QLoRA (4-bit) and compare memory/quality.
+
 ## Milestone / exercise
 Fine-tune an open small model using an existing LoRA library.
 

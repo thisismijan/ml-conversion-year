@@ -5,6 +5,11 @@
 ## Goals
 - Run, log, and iterate
 
+## Resources
+- **[Reference]** vLLM benchmark harness / methodology (ShareGPT-based, TTFT/ITL/P99) — https://blog.vllm.ai/2024/09/05/perf-update.html — concrete example of load-generation + percentile logging to mirror for your own llm-engine
+- **[Guide]** SIGPLAN Empirical Evaluation Guidelines (reuse from week 49) — for iterating on results without p-hacking the ablations
+
+
 ## Milestone / exercise
 Raw results + first-pass analysis.
 

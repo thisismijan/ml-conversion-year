@@ -5,6 +5,14 @@
 ## Goals
 - Static vs continuous batching, quantisation, FlashAttention
 
+## Resources
+- **[Paper]** Orca: A Distributed Serving System for Transformer-Based Generative Models — Yu et al., OSDI 2022 — https://www.usenix.org/conference/osdi22/presentation/yu — the iteration-level/continuous batching paper
+- **[Paper]** Efficient Memory Management for Large Language Model Serving with PagedAttention (vLLM) — Kwon et al. — https://arxiv.org/abs/2309.06180
+- **[Paper+repo]** FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness — Dao et al. — https://arxiv.org/abs/2205.14135 (repo: https://github.com/dao-ailab/flash-attention)
+- **[Docs]** vLLM Optimization and Tuning — https://docs.vllm.ai/en/stable/configuration/optimization/ — concrete knobs (max-num-seqs, max-num-batched-tokens) that map straight to the batching concepts
+
+**Stretch:** Read 'Inside vLLM: Anatomy of a High-Throughput LLM Inference System' to see how a production system combines all of the above: https://vllm.ai/blog/2025-09-05-anatomy-of-vllm
+
 ## Milestone / exercise
 Add basic batching to your inference loop.
 

@@ -5,6 +5,12 @@
 ## Goals
 - PPO, RLHF pipeline: pretrain -> SFT -> reward model -> policy optimisation
 
+## Resources
+- **[Paper]** Proximal Policy Optimization Algorithms — Schulman et al. (2017) — https://arxiv.org/abs/1707.06347 — the PPO paper, focus on the clipped surrogate objective
+- **[Paper]** Training language models to follow instructions with human feedback (InstructGPT) — Ouyang et al., OpenAI (2022) — https://arxiv.org/abs/2203.02155 — the canonical SFT->RM->PPO pipeline diagram (Fig. 2) is exactly what you're asked to reproduce from memory
+- **[Blog]** Illustrating Reinforcement Learning from Human Feedback (RLHF) — Hugging Face — https://huggingface.co/blog/rlhf — accessible pipeline walkthrough, good complement before tackling the paper
+
+
 ## Milestone / exercise
 Diagram the full RLHF pipeline from memory.
 

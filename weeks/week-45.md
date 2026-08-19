@@ -6,6 +6,13 @@
 - requests -> scheduler -> dynamic batching -> model -> KV cache -> streaming output
 - Trading-latency framing: scheduler ~ matching engine, TTFT ~ tick-to-trade
 
+## Resources
+- **[Paper]** Orca: A Distributed Serving System for Transformer-Based Generative Models — Yu et al. — https://www.usenix.org/conference/osdi22/presentation/yu — iteration-level scheduling is the core idea here
+- **[Docs]** vLLM scheduling/continuous-batching docs — https://docs.vllm.ai/en/stable/configuration/optimization/
+- **[Blog]** Inside vLLM: Anatomy of a High-Throughput LLM Inference System — https://vllm.ai/blog/2025-09-05-anatomy-of-vllm — shows the schedule -> execute -> postprocess loop, a direct model for your own scheduler
+
+**Stretch:** Write the 'scheduler ~ matching engine, TTFT ~ tick-to-trade' mapping as a one-page design note before writing code — forces the trading-domain transfer to be explicit, not just a metaphor.
+
 ## Milestone / exercise
 Add a request scheduler with dynamic batching to your server.
 

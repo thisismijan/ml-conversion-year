@@ -7,6 +7,14 @@
 - Manually differentiate y = Wx + b, loss = (y-target)^2
 - Random variables, distributions, expectation, variance, covariance, Bayes' theorem, likelihood
 
+## Resources
+- **[Video]** Essence of Calculus — 3Blue1Brown — https://www.youtube.com/@3blue1brown — chain rule and derivative-as-slope intuition, watch before deriving backprop by hand
+- **[Notes]** CS231n Optimization: Backpropagation — Andrej Karpathy / Stanford — https://cs231n.github.io/optimization-2/ — the canonical 'circuits and gates' chain-rule explanation, matches this week's milestone (manual derivation + numerical check)
+- **[Guide]** The Matrix Calculus You Need for Deep Learning — Parr & Howard — https://explained.ai/matrix-calculus/ (also arXiv:1802.01528) — going from scalar chain rule to the Wx+b gradient in matrix form
+- **[Interactive]** Seeing Theory, ch. 1-4 (Basic Probability, Compound Probability, Distributions, Bayesian Inference) — Brown University — https://seeing-theory.brown.edu/ — visual, self-testable coverage of expectation/variance/covariance/Bayes' theorem
+
+**Stretch:** Implement CS231n's 'staged computation' sigmoid-circuit example yourself before the 1-layer network derivation — smallest possible warm-up for the same technique.
+
 ## Milestone / exercise
 Manually derive backprop for a 1-layer network on paper, then verify numerically in code.
 

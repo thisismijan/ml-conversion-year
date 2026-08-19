@@ -6,6 +6,12 @@
 - Build a miniature autograd engine: Value(2)*Value(3), c.backward()
 - Computation graphs, gradient accumulation
 
+## Resources
+- **[Video]** The spelled-out intro to neural networks and backpropagation: building micrograd — Andrej Karpathy, *Neural Networks: Zero to Hero* ep.1 — https://www.youtube.com/watch?v=44_j7ufypfw — this IS the 'Value(2)*Value(3), c.backward()' milestone, taught step by step
+- **[Repo]** karpathy/micrograd — Andrej Karpathy — https://github.com/karpathy/micrograd — ~150-line reference implementation to test your engine against after you build your own, not to copy upfront
+- **[Series]** Neural Networks: Zero to Hero — Andrej Karpathy — https://karpathy.ai/zero-to-hero.html — full series landing page, useful for orientation across weeks 6-10
+
+
 ## Milestone / exercise
 micrograd-style engine, tested against PyTorch's autograd on the same expression.
 

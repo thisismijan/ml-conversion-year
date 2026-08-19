@@ -5,6 +5,13 @@
 ## Goals
 - Analysis, writing for a technical audience
 
+## Resources
+- **[Essay]** How to Write a Great Research Paper — Simon Peyton Jones — https://simon.peytonjones.org/great-research-paper/ — seven concrete, ML-agnostic suggestions for getting an idea from your head into the reader's
+- **[Essay]** Ten Simple Rules for Structuring Papers — PLOS Comp Bio — https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1003453 — practical structure rules (one point per paragraph, context-content-conclusion)
+- **[Essay]** Research as a Stochastic Decision Process — Jacob Steinhardt — https://cs.stanford.edu/~jsteinhardt/ResearchasaStochasticDecisionProcess.html — reframes what-to-work-on-next and de-risking; also directly reusable in Phase 8
+
+**Stretch:** Have someone outside your immediate context read only your abstract/intro and try to restate your hypothesis and result back to you.
+
 ## Milestone / exercise
 Milestone: 3-5 page research report, hypothesis -> methodology -> result -> discussion.
 

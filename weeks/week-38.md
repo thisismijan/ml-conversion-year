@@ -5,6 +5,12 @@
 ## Goals
 - E.g. does RoPE outperform learned positional embeddings at longer context?
 
+## Resources
+- **[Repo/Docs]** lm-evaluation-harness — EleutherAI — https://github.com/EleutherAI/lm-evaluation-harness — reuse its task/metric structure to run your own controlled comparison consistently
+- **[Checklist]** NeurIPS Paper Checklist Guidelines — https://neurips.cc/public/guides/PaperChecklist — use again here as the pre-registration checklist before running the experiment
+
+**Stretch:** Run the RoPE-vs-learned-positional comparison at 2-3 context lengths, not just one, to see if the effect is length-dependent.
+
 ## Milestone / exercise
 Run the experiment you designed; collect results.
 

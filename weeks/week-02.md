@@ -8,6 +8,14 @@
 - Linear transformations, basis, rank, norms, eigenvalues/eigenvectors, SVD
 - Connect to ML: tokens -> embedding matrix -> X @ W
 
+## Resources
+- **[Video]** Essence of Linear Algebra (16-part playlist) — 3Blue1Brown — https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab — fastest way to rebuild geometric intuition (span, basis, determinant, eigenvectors ch.14) before touching notation again
+- **[Book, ch. 2 & 4]** Mathematics for Machine Learning — Deisenroth, Faisal, Ong (free PDF) — https://mml-book.github.io/book/mml-book.pdf — ch.2 (linear algebra: rank, norms) and ch.4 (matrix decompositions: eigendecomposition, SVD) go straight from theorem to ML use case
+- **[Lecture]** 18.06 Linear Algebra, lectures 21 & 29 — Gilbert Strang, MIT OCW — https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/ — lecture 21 (eigenvalues/eigenvectors) and lecture 29 (SVD), the two concepts this week's milestone needs
+- **[Problem sets]** 18.06 course materials — MIT — https://github.com/mitmath/1806 — use the psets as the diagnostic rather than writing your own from scratch
+
+**Stretch:** Read the SVD section of Strang's *ZoomNotes* (linked from the 18.06 OCW page) before writing the SVD/PCA milestone page — a 2-page distillation of lecture 29.
+
 ## Milestone / exercise
 Write a page connecting SVD/eigenvectors to something in ML (e.g. PCA or attention).
 

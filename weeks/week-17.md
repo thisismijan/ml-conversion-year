@@ -5,6 +5,12 @@
 ## Goals
 - Tokenisation, batches, sequence length, LR, validation loss, sampling temperature, top-k
 
+## Resources
+- **[Video]** Let's build GPT (training loop, loss curves, sampling) — Andrej Karpathy — https://www.youtube.com/watch?v=kCc8FmEb1nY
+- **[Docs]** How to generate text: using different decoding methods — Hugging Face — https://huggingface.co/docs/transformers/main_classes/text_generation — official reference for temperature/top-k/top-p sampling semantics and application order
+
+**Stretch:** Plot validation loss for 2-3 different learning rates on the same chart to build intuition before Phase 4's scaling-laws work.
+
 ## Milestone / exercise
 Train on a small corpus; sample text at a few temperatures.
 

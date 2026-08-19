@@ -5,6 +5,13 @@
 ## Goals
 - Tokenization, vocabulary, embeddings, context windows, autoregressive prediction
 
+## Resources
+- **[Video+Repo]** The spelled-out intro to language modeling: building makemore — Andrej Karpathy — https://www.youtube.com/watch?v=PaCmpygFfXo (repo: https://github.com/karpathy/makemore) — builds exactly a bigram character-level LM from counting through to a tiny neural net, the direct template for this week's milestone
+- **[Series]** Neural Networks: Zero to Hero — Andrej Karpathy — https://karpathy.ai/zero-to-hero.html — index of the whole series, see how this week fits weeks 12-17
+- **[Blog]** The Illustrated GPT-2 (Visualizing Transformer Language Models) — Jay Alammar — https://jalammar.github.io/illustrated-gpt2/ — conceptual grounding for tokens/embeddings/context windows before touching attention
+
+**Stretch:** After the bigram model, try a simple trigram extension by hand to feel why it doesn't scale — motivates attention next week.
+
 ## Milestone / exercise
 Build a bigram language model; generate (bad) text.
 

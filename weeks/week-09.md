@@ -5,6 +5,12 @@
 ## Goals
 - Initialization, exploding/vanishing gradients, normalization, dropout, LR schedules
 
+## Resources
+- **[Notes]** CS231n: Neural Networks Part 2 (Setting up the data and the loss) — Stanford CS231n — https://cs231n.github.io/neural-networks-2/ — the standard reference on weight-init pitfalls and regularization/dropout
+- **[Notes]** CS231n: Neural Networks Part 3 (Learning and Evaluation) — Stanford CS231n — https://cs231n.github.io/neural-networks-3/ — babysitting the learning process via loss curves, exactly the diagnostic skill this week's milestone requires
+
+**Stretch:** Deliberately reproduce vanishing gradients with a deep sigmoid MLP and fix it with better init/normalization, per CS231n's guidance.
+
 ## Milestone / exercise
 Deliberately break a model 3 ways (bad init, no norm, huge LR) and diagnose each from the loss curve.
 

@@ -7,6 +7,14 @@
 - Implement softmax and cross-entropy yourself
 - SGD, momentum, Adam, learning rate, weight decay, regularisation, train/val/test
 
+## Resources
+- **[Blog]** Visual Information Theory — Chris Olah — https://colah.github.io/posts/2015-09-Visual-Information/ — best available entropy/cross-entropy/KL-divergence explainer, builds intuition before implementing softmax+cross-entropy from scratch
+- **[Notes]** Linear Classification: Softmax classifier & cross-entropy — CS231n / Karpathy — https://cs231n.github.io/linear-classify/#softmax — worked derivation matching the 'implement it yourself' milestone directly
+- **[Paper/Survey]** An Overview of Gradient Descent Optimization Algorithms — Sebastian Ruder — https://arxiv.org/abs/1609.04747 — SGD -> momentum -> AdaGrad/RMSprop -> Adam derivations in one place, exactly what you need to implement SGD and Adam in NumPy
+- **[Notes]** Neural Networks Part 3: Learning and Evaluation — CS231n — https://cs231n.github.io/neural-networks-3/ — practical companion on LR schedules, weight decay, train/val/test methodology
+
+**Stretch:** After implementing Adam, reproduce Ruder's toy loss-landscape comparison plot (different optimizers converging at different rates) on a simple 2D function.
+
 ## Milestone / exercise
 Implement SGD and Adam with NumPy. Milestone: explain 'how does a neural net learn' end-to-end, in code.
 

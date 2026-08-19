@@ -5,6 +5,12 @@
 ## Goals
 - Parameter count, FLOPs, training tokens, compute-optimal training, scaling laws
 
+## Resources
+- **[Paper]** Scaling Laws for Neural Language Models — Kaplan et al. — https://arxiv.org/abs/2001.08361 — original scaling-law formulation (params/data/compute power laws)
+- **[Paper]** Training Compute-Optimal Large Language Models (Chinchilla) — Hoffmann et al. — https://arxiv.org/abs/2203.15556 — the paper to compare your own model's token budget against
+
+**Stretch:** Compute where your GPT would sit on the Chinchilla compute-optimal frontier if scaled to 1B/10B params.
+
 ## Milestone / exercise
 Estimate compute-optimal token count for your model size; compare to Chinchilla.
 

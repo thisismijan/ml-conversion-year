@@ -5,6 +5,11 @@
 ## Goals
 - Supervised fine-tuning pipeline
 
+## Resources
+- **[Docs]** TRL SFTTrainer — Hugging Face — https://huggingface.co/docs/trl/en/index — reference for pipeline shape (data formatting, loss masking) even if you write your own loop
+- **[Dataset]** Stanford Alpaca — tatsu-lab — https://github.com/tatsu-lab/stanford_alpaca — 52K instruction/response pairs, simple JSON format, good size for a small model SFT run
+
+
 ## Milestone / exercise
 SFT your GPT on an instruction dataset.
 

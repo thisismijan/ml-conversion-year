@@ -5,6 +5,12 @@
 ## Goals
 - States/actions/rewards, policies, value functions, policy gradients
 
+## Resources
+- **[Course]** Spinning Up in Deep RL — OpenAI — https://spinningup.openai.com/en/latest/ — Part 1 (RL intro) + Part 3 (policy gradient derivation), the cleanest free intro, code included
+- **[Repo]** spinningup vpg.py — OpenAI — https://github.com/openai/spinningup/blob/master/docs/algorithms/vpg.rst — reference implementation to check your bandit/gridworld policy-gradient code against
+
+**Stretch:** Implement REINFORCE on a multi-armed bandit before attempting gridworld — isolates the policy-gradient math from credit-assignment-over-time complexity.
+
 ## Milestone / exercise
 Implement a tiny policy-gradient example (e.g. bandit or gridworld).
 

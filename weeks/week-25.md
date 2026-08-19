@@ -5,6 +5,12 @@
 ## Goals
 - Low-rank adapter math and implementation
 
+## Resources
+- **[Paper]** LoRA: Low-Rank Adaptation of Large Language Models — Hu et al. — https://arxiv.org/abs/2106.09685 — re-read sections 4 & 7 closely for the delta-W = BA math you're implementing
+- **[Repo]** loralib — Microsoft — https://github.com/microsoft/LoRA — minimal reference implementation to check your from-scratch version against
+
+**Stretch:** Sweep rank r and plot trainable-param-count vs eval loss on your own GPT.
+
 ## Milestone / exercise
 LoRA implemented from scratch, applied to your GPT.
 

@@ -5,6 +5,11 @@
 ## Goals
 - Preference data collection/format
 
+## Resources
+- **[Dataset/Reference]** Anthropic hh-rlhf — https://huggingface.co/datasets/Anthropic/hh-rlhf — study the chosen/rejected jsonl format as the schema to mimic (can be self-generated with two sampling temperatures + your own ranking)
+- **[Docs]** TRL DPOTrainer data format — Hugging Face — https://huggingface.co/docs/trl/en/index — confirms the exact prompt/chosen/rejected field names expected downstream in week 35
+
+
 ## Milestone / exercise
 Create a small preference dataset (can be synthetic/self-generated).
 

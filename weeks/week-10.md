@@ -5,6 +5,12 @@
 ## Goals
 - Rewrite your NN with minimal nn.* usage — most forward/training logic by hand
 
+## Resources
+- **[Repo]** tinygrad/tinygrad — tiny corp / George Hotz — https://github.com/tinygrad/tinygrad — read (don't copy) as a real-world minimal, from-scratch autodiff + NN framework, positioned between micrograd and PyTorch
+- **[Repo]** karpathy/micrograd — Andrej Karpathy — https://github.com/karpathy/micrograd — revisit your Week 6 engine and extend it toward this week's tensor-level milestone
+
+**Stretch:** Write a short README section comparing your design decisions against tinygrad's (e.g. lazy eval, ops as a small closed set).
+
 ## Milestone / exercise
 Milestone: tinygrad repo — your own autodiff + NN library, README with design notes.
 

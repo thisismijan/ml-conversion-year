@@ -5,6 +5,12 @@
 ## Goals
 - Run a real fine-tune with your LoRA implementation
 
+## Resources
+- **[Docs]** PEFT Quicktour — Hugging Face — https://huggingface.co/docs/peft/quicktour — same doc as week 24, now for a real end-to-end fine-tune + evaluate pass with your own LoRA implementation
+- **[Paper]** QLoRA: Efficient Finetuning of Quantized LLMs — Dettmers et al. — https://arxiv.org/abs/2305.14314 — Guanaco eval methodology as a template for evaluating your fine-tune
+
+**Stretch:** Compare your from-scratch LoRA fine-tune's outputs against a PEFT-library LoRA fine-tune of the same base model on the same data.
+
 ## Milestone / exercise
 Milestone: modern-gpt repo complete + fine-tuned checkpoint.
 

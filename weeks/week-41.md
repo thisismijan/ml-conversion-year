@@ -5,6 +5,13 @@
 ## Goals
 - prompt -> prefill -> KV cache -> decode -> sampling
 
+## Resources
+- **[Docs]** Caching (KV cache) — Hugging Face Transformers — https://huggingface.co/docs/transformers/en/cache_explanation — official explanation of use_cache/past_key_values
+- **[Blog]** LLM Inference Series: 3. KV caching explained — Pierre Lienhart — https://medium.com/@plienhar/llm-inference-series-3-kv-caching-unveiled-048152e461c8 — why KV cache turns per-token cost from quadratic to linear
+- **[Blog/code]** Inference Server From Scratch — Part 2: Real Model — Pavel Belevich — https://medium.com/@pbelevich/inference-server-from-scratch-part-2-real-model-c69b803d59ee — a real greedy_generate() loop to study/adapt
+
+**Stretch:** Log wall-clock time for the prefill step vs each decode step separately to see the asymmetry firsthand.
+
 ## Milestone / exercise
 Diagram + implement a minimal prefill/decode loop with KV cache.
 

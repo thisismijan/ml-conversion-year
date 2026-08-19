@@ -5,6 +5,12 @@
 ## Goals
 - Run DPO end to end
 
+## Resources
+- **[Paper]** Direct Preference Optimization — Rafailov et al. — https://arxiv.org/abs/2305.18290
+- **[Docs]** TRL DPOTrainer — Hugging Face — https://huggingface.co/docs/trl/en/index — validate your from-scratch DPO loss against a known-correct implementation
+
+**Stretch:** Report win-rate of DPO vs SFT vs base using your own GPT as an LLM-judge, foreshadowing Phase 6's eval-design work.
+
 ## Milestone / exercise
 Milestone: mini-post-training-lab — compare base vs SFT vs DPO on an eval set.
 

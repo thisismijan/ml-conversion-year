@@ -5,6 +5,12 @@
 ## Goals
 - Implement baseline, design controlled experiment (reuse Phase 6 template)
 
+## Resources
+- **[Guide]** SIGPLAN Empirical Evaluation Guidelines — https://www.sigplan.org/Resources/EmpiricalEvaluation/ — checklist of patterns/anti-patterns for systems-paper evaluations, use to design the controlled experiment
+- **[Guide]** How to Do Statistical Evaluations in ECE/CS Papers: A Practical Playbook for Defensible Results — Krishnamachari — https://arxiv.org/abs/2605.00428 — claim -> design -> analysis -> reporting chain; apply directly to baseline vs policy comparison
+- **[Talk]** How NOT to Measure Latency — Gil Tene (see week 48) — re-watch when defining the experiment's measurement protocol, not just when reading about it
+
+
 ## Milestone / exercise
 Working baseline + written experiment design.
 

@@ -5,6 +5,13 @@
 ## Goals
 - Grouped/multi-query attention, FlashAttention, mixture of experts (conceptual)
 
+## Resources
+- **[Paper]** GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints — Ainslie et al. — https://arxiv.org/abs/2305.13245 — the GQA paper, this week's implementation target
+- **[Paper]** FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness — Dao et al. — https://arxiv.org/abs/2205.14135 — read for understanding, no need to implement the CUDA kernel
+- **[Blog]** Mixture of Experts Explained — Hugging Face — https://huggingface.co/blog/moe — survey-level MoE explainer matching this week's 'conceptual' scope
+
+**Stretch:** If you want a from-scratch MoE reference without committing to implementing it: https://huggingface.co/blog/AviSoori1x/makemoe-from-scratch
+
 ## Milestone / exercise
 Implement GQA in your GPT (MoE/FlashAttention: understand, don't necessarily implement).
 

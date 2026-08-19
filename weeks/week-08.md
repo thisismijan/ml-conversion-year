@@ -5,6 +5,11 @@
 ## Goals
 - Datasets, batching, epochs, training/validation, checkpoints, hyperparameters
 
+## Resources
+- **[Tutorial]** Training a Classifier (CIFAR-10) — PyTorch official docs — https://docs.pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html — official end-to-end datasets/batching/training-loop/eval tutorial, exact scope of this week's milestone
+- **[Docs]** Datasets & DataLoaders — PyTorch official docs — https://docs.pytorch.org/tutorials/beginner/basics/data_tutorial.html — canonical reference for batching/epoch mechanics
+
+
 ## Milestone / exercise
 Train an image classifier; log train/val curves.
 

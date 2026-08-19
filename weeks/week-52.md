@@ -5,6 +5,12 @@
 ## Goals
 - Technical paper/blog post; final polish pass on all 6 portfolio items
 
+## Resources
+- **[Guide]** Notes On Writing Effective Empirical Software Engineering Papers: An Opinionated Primer — https://arxiv.org/abs/2506.11002 — practical, short guide to structuring the writeup (claims -> evidence -> limitations)
+- **[Example]** vLLM Blog performance posts — https://blog.vllm.ai/2024/09/05/perf-update.html — model for a short, credible, benchmarks-first systems writeup/blog post rather than a full academic paper
+
+**Stretch:** Cross-post the final writeup's abstract as the closing summary of your Friday video series.
+
 ## Milestone / exercise
 Milestone: published research writeup + complete portfolio of 5 repos + 1 research project.
 

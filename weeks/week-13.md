@@ -5,6 +5,13 @@
 ## Goals
 - No nn.MultiheadAttention — build it from matmuls
 
+## Resources
+- **[Video]** Let's build GPT (self-attention head implementation segment) — Andrej Karpathy — https://www.youtube.com/watch?v=kCc8FmEb1nY — builds a Head module from raw matmuls, no nn.MultiheadAttention
+- **[Code]** The Annotated Transformer — Sasha Rush / Harvard NLP — https://nlp.seas.harvard.edu/annotated-transformer/ (repo: https://github.com/harvardnlp/annotated-transformer) — line-by-line PyTorch implementation to check your from-scratch attention against
+- **[Reference]** CS231n Gradient checks notes — Stanford — https://cs231n.github.io/neural-networks-3/ — relative-error thresholds and float64 precision guidance for this week's numerical gradient check
+
+**Stretch:** Also gradient-check against PyTorch autograd directly (torch.autograd.gradcheck) as a second, independent verification.
+
 ## Milestone / exercise
 Self-attention module passing a numerical gradient check.
 

@@ -5,6 +5,11 @@
 ## Goals
 - Reward model architecture and training
 
+## Resources
+- **[Docs]** TRL RewardTrainer — Hugging Face — https://huggingface.co/docs/trl/en/index — scalar reward head over a base model, Bradley-Terry pairwise loss
+- **[Paper]** InstructGPT — Ouyang et al. — https://arxiv.org/abs/2203.02155 — section 3.2 covers reward model training and loss specifically
+
+
 ## Milestone / exercise
 Train a preference model on your dataset.
 

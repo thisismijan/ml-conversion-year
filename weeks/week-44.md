@@ -5,6 +5,12 @@
 ## Goals
 - HTTP request -> model.generate() -> response
 
+## Resources
+- **[Blog/code]** Inference Server From Scratch — Part 1: OpenAI API — Pavel Belevich — https://pbelevich.github.io/2025/09/10/Inference_Server_From_Scratch_-_Part_1.html — builds a minimal FastAPI server speaking the OpenAI /v1/chat/completions wire format, streamed via SSE, a near-exact match for this week's milestone
+- **[Docs]** FastAPI StreamingResponse — used throughout the above and in most LLM-serving tutorials for token-by-token output
+
+**Stretch:** Match the OpenAI wire format so any OpenAI-client library can hit your server later.
+
 ## Milestone / exercise
 A minimal working inference server.
 

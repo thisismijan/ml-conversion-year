@@ -5,6 +5,11 @@
 ## Goals
 - Dig into anything unexpected
 
+## Resources
+- **[Guide]** How to Do Statistical Evaluations in ECE/CS Papers (reuse from week 49) — https://arxiv.org/abs/2605.00428 — its guidance on investigating anomalous/outlier results defensibly rather than discarding them
+- **[Talk]** How NOT to Measure Latency — Gil Tene — Coordinated Omission is the single most likely explanation for a weird tail-latency anomaly; check for it first
+
+
 ## Milestone / exercise
 Finalised results, graphs.
 

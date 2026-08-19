@@ -7,6 +7,12 @@
 - CPU <-> GPU movement
 - PyTorch 'Learn the Basics' tutorial
 
+## Resources
+- **[Tutorial]** Learn the Basics (Quickstart -> Tensors -> Autograd -> Optimization) — PyTorch official docs — https://docs.pytorch.org/tutorials/beginner/basics/intro.html — the canonical, official walkthrough of exactly this week's tensor/device/autograd basics
+- **[Article]** PyTorch in One Hour: From Tensors to Training Neural Networks on Multiple GPUs — Sebastian Raschka — https://sebastianraschka.com/teaching/pytorch-1h/ — dense single-sitting refresher on tensors/devices/autograd
+- **[Docs]** torch.Tensor attributes (shape, dtype, device, requires_grad) — PyTorch docs — https://docs.pytorch.org/docs/stable/tensors.html — primary reference for this week's exact goals
+
+
 ## Milestone / exercise
 Port your NumPy linear regression to PyTorch tensors.
 
